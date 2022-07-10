@@ -1,0 +1,13 @@
+*{
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background: #f2f2f2;
+    font-family: 'Inter', sans-serif;
+}
+
+nav {
+    background: #cacaca;
+}
