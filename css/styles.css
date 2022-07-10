@@ -34,13 +34,14 @@ header .menu a {
     padding-bottom: 9px;
     display: inline-block;
     text-decoration: none;
-    border-bottom: 2px solid transparent ;
+    /* border-bottom: 2px solid transparent; */
     font-size: 1em;
 }
 
 header .menu a:hover {
-    border-bottom: 2px solid tomato;
-    transition: all 0.5 s;
+    color: black;
+    /* border-bottom: 2px solid tomato; */
+    transition: all 0.7s ease-in-out;
 }
 
 header .contenedor-texto {
@@ -103,5 +104,61 @@ header .contenedor-texto .texto .profesion {
     line-height: 60px;
     width: 80%;
     margin: 40px auto 60px auto;
+}
+
+.main .trabajos {
+    background-color: #dfdfdf;
+    padding: 60px 0;
+}
+
+.main .trabajos .contenedor {
+    overflow: hidden;
+}
+
+.main .trabajos .titulo {
+    font-size: 36px;
+    margin-bottom: 40px;
+    font-weight: 300;
+    color: #5a5a5a;
+    text-align: center;
+}
+
+.main .trabajos .contenedor-trabajos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main .trabajos .contenedor-trabajos .trabajo {
+    width: 48%;
+    margin-top: 30px;
+}
+
+.main .trabajos .contenedor-trabajos .trabajo .thumb {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.main .trabajos .contenedor-trabajos .trabajo .thumb img {
+    width: 100%;
+    vertical-align: top;
+}
+
+.main .trabajos .contenedor-trabajos .trabajo .descripcion {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.main .trabajos .contenedor-trabajos .trabajo .nombre {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+
+}
+
+.main .trabajos .contenedor-trabajos .trabajo .categoria {
+    font-size: 14px;
+    color: #5a5a5a;
 }
 
