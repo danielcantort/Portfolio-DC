@@ -51,8 +51,8 @@ header .contenedor-texto {
 }
 
 header .contenedor-texto .texto {
-    border: 2px solid rgba(255, 255, 255, 0.5);
-    border-radius: 3px;
+    /* border: 2px solid rgba(255, 255, 255, 0.5); */
+    /* border-radius: 3px; */
     display: inline-block;
     text-align: center;
     padding: 20px 60px;
@@ -76,3 +76,32 @@ header .contenedor-texto .texto .profesion {
     font-size: 20px;
     line-height: 20px;
 }
+
+/* ------Main------ */
+.main .contenedor {
+    overflow: visible;
+}
+
+.main .acerca-de {
+    text-align: center;
+}
+
+.main .acerca-de .foto {
+    margin-top: -60px;
+}
+
+.main .acerca-de .foto img {
+    vertical-align: top;
+    border-radius: 50%;
+    border: 5px solid rgba(255, 255, 255, 0.4);
+}
+
+.main .acerca-de .texto p {
+    color: #5a5a5a;
+    font-weight: 300;
+    font-size: 3em;
+    line-height: 60px;
+    width: 80%;
+    margin: 40px auto 60px auto;
+}
+
