@@ -112,7 +112,7 @@ header .contenedor-texto .texto .profesion {
 }
 
 .main .trabajos .contenedor {
-    overflow: hidden;
+    overflow: visible;
 }
 
 .main .trabajos .titulo {
@@ -138,11 +138,17 @@ header .contenedor-texto .texto .profesion {
 .main .trabajos .contenedor-trabajos .trabajo .thumb {
     width: 100%;
     margin-bottom: 10px;
+    overflow: hidden;
 }
 
 .main .trabajos .contenedor-trabajos .trabajo .thumb img {
     width: 100%;
     vertical-align: top;
+    transition: transform 0.7s;
+}
+
+.main .trabajos .contenedor-trabajos .trabajo .thumb img:hover {
+    transform: scale(1.3);
 }
 
 .main .trabajos .contenedor-trabajos .trabajo .descripcion {
@@ -161,4 +167,74 @@ header .contenedor-texto .texto .profesion {
     font-size: 14px;
     color: #5a5a5a;
 }
+
+/* ------Footer------ */
+footer .contacto {
+    padding: 40px 0;
+}
+
+footer .contacto .titulo {
+    font-size: 36px;
+    margin-bottom: 40px;
+    font-weight: 300;
+    color: #5a5a5a;
+    text-align: center;
+}
+
+footer .contacto .formulario {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer .contacto .formulario input[type="text"],
+footer .contacto .formulario input[type="email"],
+footer .contacto .formulario textarea {
+    border: 2px solid #cecece;
+    border-radius: 5px;
+    padding: 15px 20px;
+    font-size: 18px;
+    color: #a4a4a4; 
+}
+
+footer .contacto .formulario input[type="text"]:focus,
+footer .contacto .formulario input[type="email"]:focus,
+footer .contacto .formulario textarea:focus {
+    border: 2px solid black;
+}
+
+footer .contacto .formulario input[type="text"],
+footer .contacto .formulario input[type="email"] {
+    width: 49%;
+    margin-bottom: 15px;
+}
+
+footer .contacto .formulario textarea {
+    width: 100%;
+    height: 100px;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100px;
+    max-height: 300px;
+    margin-bottom: 15px;
+}
+
+footer .contacto .formulario .boton {
+    margin: auto;
+    background: black;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 15px 40px;
+    cursor: pointer;
+    font-size: 17px;
+} 
+
+footer .contacto .formulario .boton:hover {
+    background: #5a5a5a;
+}
+
+
+
+
 
