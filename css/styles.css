@@ -171,6 +171,7 @@ header .contenedor-texto .texto .profesion {
 /* ------Footer------ */
 footer .contacto {
     padding: 40px 0;
+    margin-bottom: 20px;
 }
 
 footer .contacto .titulo {
@@ -233,6 +234,38 @@ footer .contacto .formulario .boton {
 footer .contacto .formulario .boton:hover {
     background: #5a5a5a;
 }
+
+footer .redes-sociales {
+    background: #3e3e3e;
+    padding: 60px 0;
+}
+
+footer .redes-sociales .contenedor {
+    display: flex;
+    justify-content: center;
+}
+
+footer .redes-sociales a {
+    color: #fff;
+    text-align: center;
+    width: 100px;
+    display: block;
+    padding: 15px 0;
+    border-radius: 4px;
+    font-size: 30px;
+    margin: 0 20px;
+}
+
+footer .redes-sociales .github:hover {background: #666666;}
+footer .redes-sociales .behance:hover {background: #1769ff;}
+footer .redes-sociales .dribbble:hover {background: #ea4c89;}
+footer .redes-sociales .instagram:hover {background: #f56040;}
+
+footer .redes-sociales .registrado {
+    width: 100%;
+    position: absolute;
+}
+
 
 
 
