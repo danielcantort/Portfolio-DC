@@ -342,6 +342,11 @@ section .contact {
     width: 700px;
     height: auto;
     border-radius: 10px;
+    transition: .5s;
+}
+
+.contact-img img:hover {
+    transform: scale(.8);
 }
 
 .contact-form {
