@@ -342,7 +342,7 @@ section .contact {
     width: 700px;
     height: auto;
     border-radius: 10px;
-    transition: .5s;
+    transition: .5s ease-in-out;
 }
 
 .contact-img img:hover {
