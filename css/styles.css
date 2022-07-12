@@ -168,6 +168,78 @@ header .contenedor-texto .texto .profesion {
     color: #5a5a5a;
 }
 
+/* ---About--- */
+
+.about {
+    width:100%;
+    padding: 70px 0;
+    background: #191919;
+    margin: 0;
+}
+
+.about img {
+    height: auto;
+    width: 420px;
+    border-radius: 5px;
+}
+
+.about-text {
+    width: 550px;
+}
+
+section .main {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-text h2 {
+    color: #fff;
+    font-size: 4rem;
+    margin: 0;
+}
+
+.about-text h5 {
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+#bold-designer {
+    color: #f93600;
+}
+
+.about-text p {
+    color: #cecece;
+    letter-spacing: 0.3px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+.btn-about {
+    background: #f93600;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: 600;
+    padding: 13px 30px;
+    border-radius: 30px;
+    margin-top: 10px;
+    transition: .4s;
+}
+
+.btn-about:hover {
+    background:transparent;
+    border: 2px solid #f93600;
+    cursor: pointer;
+}
+
 /* ------Footer------ */
 footer .contacto {
     padding: 40px 0;
@@ -221,18 +293,23 @@ footer .contacto .formulario textarea {
 }
 
 footer .contacto .formulario .boton {
-    margin: auto;
-    background: black;
-    color: #fff;
-    border: none;
-    border-radius: 3px;
-    padding: 15px 40px;
-    cursor: pointer;
-    font-size: 17px;
+    background: #f93600;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: 600;
+    padding: 13px 30px;
+    border-radius: 30px;
+    /* margin-top: 10px; */
+    transition: .4s;
+    margin: 0 auto;
 } 
 
 footer .contacto .formulario .boton:hover {
-    background: #5a5a5a;
+    background:transparent;
+    color: #191919;
+    border: 2px solid #f93600;
+    cursor: pointer;
 }
 
 footer .redes-sociales {
