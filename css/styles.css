@@ -292,6 +292,11 @@ section .main {
     margin: 20px 40px;
 }
 
+.projects img:hover {
+    background-color: rgba(255, 255, 255, 4);
+
+}
+
 .projects .projects-text h2 {
     color: #191919;
     font-size: 4rem;
@@ -313,6 +318,93 @@ color: #666666;
     line-height: 28px;
     font-size: 18px;
     margin-bottom: 25px;
+}
+
+
+/* Contact */
+section .contact {
+    margin: 0 50px;
+}
+
+.contact {
+    background-color: #191919;
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    align-items: center;
+    grid-gap: 6rem;
+}
+
+.contact-img img {
+    max-width: 100%;
+    width: 700px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.contact-form {
+    margin-left: 150px;
+}
+
+.contact-form h1 {
+    font-size: 80px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.contact-form p {
+    color: #dfdfdf;
+    letter-spacing: .5px;
+    line-height: 25px;
+    font-size: 1.1rem;
+    margin-bottom: 3.8rem;
+}
+
+.contact-form form {
+    position: relative;
+}
+
+.contact-form form input, form .textarea-contact {
+    width: 100%;
+    padding: 17px;
+    border: none;
+    outline: none;
+    background: #262626;
+    color: #fff;
+    font-size: 1.1rem;
+    margin-bottom: 0.7rem;
+    border-radius: 10px;
+}
+
+.contact-form textarea {
+    resize: none;
+    height: 200px;
+}
+
+.contact-form form .btn {
+    display: inline-block;
+    background: #f93600;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    font-weight: 600;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    width: 220px;
+    margin-top: 20px;
+    transition: ease .20s;
+    cursor: pointer;
+}
+
+.contact-form form .btn:hover {
+    border: 2px solid #f93600;
+    background: transparent;
+    transform: scale(1.1);
+}
+
+.contact-me {
+    color: #f93600;
 }
 
 /* ------Footer------ */
@@ -440,6 +532,8 @@ footer .redes-sociales .registrado {
         width: 80%;
         margin: 40px auto 60px auto;
     }
+
+
 }
 
 @media screen and (max-width: 500px) {
@@ -449,7 +543,44 @@ footer .redes-sociales .registrado {
     }
 }
 
+@media screen and (max-width: 1000px) {
+    section .contact {
+        padding: 60px 5%;
+        transition: .2s;
+    }
 
+    .contact-form h1 {
+        font-size: 40px;
+    }
+
+    .contact-form p {
+        margin-bottom: 3rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .contact {
+        grid-gap:2rem;
+        transition: .3s; 
+    }
+
+    .contact-form{
+        order: 2;
+        margin: 10px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .contact{
+        grid-template-columns: 1fr;
+    }
+
+    .contact-form{
+        order: 2;
+        margin: 10px;
+    }
+   
+}
 
 
 
